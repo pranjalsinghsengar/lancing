@@ -1,4 +1,3 @@
-import logo from "./logo.svg";
 import "./App.css";
 import { GoBug } from "react-icons/go";
 import { IoLogoWhatsapp } from "react-icons/io5";
@@ -7,13 +6,8 @@ import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 
 function App() {
-  const bgImage =
-    "https://images.unsplash.com/photo-1642970047669-c9b8cbaa01a5?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D";
-
   const notify = () =>
     toast("sorry for incovenince, site is under construction");
-
-  const HireHandler = () => {};
 
   const buttons = [
     {
@@ -31,10 +25,6 @@ function App() {
       title: "discord ",
       link: null,
     },
-    // {
-    //   icon: <span className='text-2xl'>form</span>,
-    //   title: "bounty",
-    // },
   ];
 
   return (
